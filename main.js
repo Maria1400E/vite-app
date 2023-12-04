@@ -92,7 +92,7 @@ const turnoComputadora = (puntosMinimos) => {
             alert('¡¡COMPUTADORA GANA 💻🚀✨!!');
         }
 
-    }, 100 );
+    }, 200 );
 }
 
 // Eventos
@@ -117,7 +117,7 @@ btnPedir.addEventListener('click', () => {
 
         setTimeout(() => {
             alert('¡¡YOU WIN 👩🏽🚀✨!!');
-        }, 100 );
+        }, 200 );
 
         btnPedir.disabled = true;
         btnDetener.disabled = true;
